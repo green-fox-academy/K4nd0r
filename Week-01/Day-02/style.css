@@ -1,0 +1,54 @@
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0% 0%;
+    background-image: url("topography.png");ű
+    font-family: 'Merriweather', serif;
+    font-family: 'Mali', cursive;
+}
+nav {
+    background-color: #333333;
+    text-align: right;
+    width: 80%;
+    height: 60px;
+    padding: 0% 10%;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+h2 {
+    color: #ff0099;
+    margin-left: 100px;
+}
+p.intro {
+    text-align: left;
+    margin-left: 100px;
+}
+p.separate {
+    text-align: center;
+    margin-top: 40px;
+}
+a { 
+    margin-top: 10px;
+    color: #ff0099;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+p.Wiki {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+h4 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 100;
+    margin-right: 0;
+    font-weight: bold;
+}
