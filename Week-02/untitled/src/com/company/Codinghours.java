@@ -13,7 +13,8 @@ public class Codinghours {
         System.out.println( a * 17);
         // Print the percentage of the coding hours in the semester if the average
         // work hours weekly is 52
-        System.out.println( a / 52 * 100.);
+        double b = 30 / 52. ;
+        System.out.println( b * 100 );
 
     }
 }
