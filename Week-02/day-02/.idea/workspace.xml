@@ -19,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1969" />
+          <entry key="java" value="2177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1969" />
+          <entry key="JAVA" value="2177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -50,15 +50,6 @@
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/comp/greenfox/third.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -117,11 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comp/greenfox/doubleItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/comp/greenfox/colors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/comp/greenfox/factorio.java" />
         <option value="$PROJECT_DIR$/src/comp/greenfox/Martix.java" />
         <option value="$PROJECT_DIR$/src/comp/greenfox/doubleItem.java" />
+        <option value="$PROJECT_DIR$/src/comp/greenfox/colors.java" />
       </list>
     </option>
   </component>
@@ -218,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540913041030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540914495751" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.doubleItem">
+  <component name="RunManager" selected="Application.colors">
     <configuration name="Martix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.greenfox.Martix" />
       <module name="day-02" />
@@ -248,6 +249,19 @@
     </configuration>
     <configuration name="PrintAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.greenfox.PrintAll" />
+      <module name="day-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.greenfox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="colors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.greenfox.colors" />
       <module name="day-02" />
       <extension name="coverage">
         <pattern>
@@ -285,33 +299,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="incrementElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.greenfox.incrementElement" />
-      <module name="day-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comp.greenfox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.incrementElement" />
       <item itemvalue="Application.PrintAll" />
       <item itemvalue="Application.factorio" />
       <item itemvalue="Application.Martix" />
       <item itemvalue="Application.doubleItem" />
+      <item itemvalue="Application.colors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.colors" />
         <item itemvalue="Application.doubleItem" />
         <item itemvalue="Application.Martix" />
         <item itemvalue="Application.factorio" />
         <item itemvalue="Application.PrintAll" />
-        <item itemvalue="Application.incrementElement" />
       </list>
     </recent_temporary>
   </component>
@@ -325,12 +326,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540889651584</updated>
-      <workItem from="1540889655985" duration="16724000" />
+      <workItem from="1540889655985" duration="18178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16724000" />
+    <option name="totallyTimeSpent" value="18178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -476,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comp/greenfox/Martix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comp/greenfox/PrintParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -496,8 +490,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comp/greenfox/doubleItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp/greenfox/Martix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp/greenfox/colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
