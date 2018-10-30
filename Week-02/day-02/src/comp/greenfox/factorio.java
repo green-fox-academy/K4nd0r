@@ -2,7 +2,7 @@ package comp.greenfox;
 
 public class factorio {
     public static long factorio(int number) {
-        long result = 1;
+        int result = 1;
         for (int factor = 2; factor <= number; factor++) {
             result *= factor;
         }
