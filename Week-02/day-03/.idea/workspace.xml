@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65d54dfc-a03f-476a-a759-c0a1775eeb90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/comp/greenfox/DrawSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/greenfox/DrawSquare.java" afterDir="false" />
-    </list>
+    <list default="true" id="65d54dfc-a03f-476a-a759-c0a1775eeb90" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="956" />
+          <entry key="java" value="1555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="956" />
+          <entry key="JAVA" value="1555" />
         </counts>
       </usages-collector>
     </session>
@@ -91,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comp/greenfox/DrawSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/comp/greenfox/GuessTheNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -122,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/comp/greenfox/DrawDiamond.java" />
         <option value="$PROJECT_DIR$/src/comp/greenfox/DrawSquar.java" />
         <option value="$PROJECT_DIR$/src/comp/greenfox/DrawSquare.java" />
+        <option value="$PROJECT_DIR$/src/comp/greenfox/GuessTheNumber.java" />
       </list>
     </option>
   </component>
@@ -173,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540985817326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540992536965" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DrawSquare">
+  <component name="RunManager" selected="Application.GuessTheNumber">
     <configuration name="DrawDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.greenfox.DrawDiamond" />
       <module name="day-03" />
@@ -240,8 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.greenfox.FizzBuzz" />
+    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.greenfox.GuessTheNumber" />
       <module name="day-03" />
       <extension name="coverage">
         <pattern>
@@ -254,19 +262,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.DrawTriangle" />
       <item itemvalue="Application.DrawPyramid" />
       <item itemvalue="Application.DrawDiamond" />
       <item itemvalue="Application.DrawSquare" />
+      <item itemvalue="Application.GuessTheNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessTheNumber" />
         <item itemvalue="Application.DrawSquare" />
         <item itemvalue="Application.DrawDiamond" />
         <item itemvalue="Application.DrawPyramid" />
         <item itemvalue="Application.DrawTriangle" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -280,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540978204941</updated>
-      <workItem from="1540978211445" duration="6368000" />
+      <workItem from="1540978211445" duration="10419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6368000" />
+    <option name="totallyTimeSpent" value="10419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -375,8 +383,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comp/greenfox/DrawSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp/greenfox/GuessTheNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
