@@ -23,10 +23,20 @@ public class ConnectTheDots {
 
     public static void connectDots(Graphics g, int[][] params){
         g.setColor(Color.GREEN);
+        boolean isOver = false;
+        int counter = 1;
+        int until = 5;
         for(int i = 0; i < params.length - 1; i++) {
             g.drawLine(params[i][0], params[i][1], params[i+1][0], params[i+1][1]);
-            if ( i == params.length -2){
-                g.drawLine(10,10,10,290);
+            if ( i == params.length -2) {
+                g.drawLine(10, 10, 10, 290);
+//            if (i + 1 == params.length && !isOver) {
+//                i = 0;
+//                counter++;
+//                if (counter == until) {
+//                    isOver = true;
+//                }
+//            }
             }
         }
     }
