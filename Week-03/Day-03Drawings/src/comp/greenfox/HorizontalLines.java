@@ -7,22 +7,23 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class GoToCenter {
+public class HorizontalLines {
     public static void mainDraw(Graphics graphics) {
         // Create a line drawing function that takes 2 parameters:
         // The x and y coordinates of the line's starting point
-        // and draws a line from that point to the center of the canvas.
+        // and draws a 50 long horizontal line from that point.
         // Draw 3 lines with that function. Use loop for that.
         for (int i = 0; i < 3; i++) {
-            int xPoint = (int)(Math.random() * (WIDTH + 1));
-            int yPoint = (int)(Math.random() * (HEIGHT + 1));
+            int xPoint = (int) (Math.random() * (WIDTH + 1));
+            int yPoint = (int) (Math.random() * (HEIGHT + 1));
             drawLine(graphics, xPoint, yPoint);
         }
     }
 
-    public  static  void drawLine(Graphics graphics, int startX, int startY){
-        graphics.drawLine(startX, startY, WIDTH/2, HEIGHT/2);
-    }
+    public static void drawLine(Graphics graphics, int startX, int startY) {
+        graphics.drawLine(startX, startY, startX + 50, startY);
+
+}
 
     // Don't touch the code below
     static int WIDTH = 320;
@@ -47,3 +48,7 @@ public class GoToCenter {
         }
     }
 }
+
+
+
+
