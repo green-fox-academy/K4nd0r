@@ -55,7 +55,7 @@ public class StudentCounter{
             }
         }
         System.out.println("have got more candies than 4.");
-        
+
         double sum = 0;
 
         for (int i = 0; i < map.size(); i++) {
