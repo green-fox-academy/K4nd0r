@@ -8,7 +8,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class Triangles {
     public static void mainDraw(Graphics graphics) {
 
-        int numberOfRows = 40;
+        int numberOfRows = 20;
         int heightOfTriangle = HEIGHT/numberOfRows;
         int sideOfTriangle = HEIGHT/numberOfRows;
         int halfSideOfTriangle = sideOfTriangle/2;
@@ -16,9 +16,21 @@ public class Triangles {
 
         for (int i = 0; i < numberOfRows+1; i++) {
 
-            graphics.drawLine(WIDTH-(sideOfTriangle*i), HEIGHT, WIDTH-(halfSideOfTriangle*i),HEIGHT-(heightOfTriangle*i));
-            graphics.drawLine(sideOfTriangle*i, HEIGHT, (halfSideOfTriangle*i),HEIGHT-(heightOfTriangle*i));
-            graphics.drawLine(WIDTH/2 - halfSideOfTriangle*i, heightOfTriangle*i , WIDTH/2 + halfSideOfTriangle*i,heightOfTriangle*i);
+            graphics.drawLine(
+                    WIDTH-(sideOfTriangle*i),
+                     HEIGHT,
+                    WIDTH-(halfSideOfTriangle*i),
+                    HEIGHT-(heightOfTriangle*i));
+            graphics.drawLine(
+                    sideOfTriangle*i,
+                    HEIGHT,
+                    (halfSideOfTriangle*i),
+                    HEIGHT-(heightOfTriangle*i));
+            graphics.drawLine(
+                    WIDTH/2 - halfSideOfTriangle*i,
+                    heightOfTriangle*i ,
+                    WIDTH/2 + halfSideOfTriangle*i,
+                    heightOfTriangle*i);
         }
 
     }
