@@ -18,7 +18,7 @@ public class PrintEachLine {
       List<String> lines = Files.readAllLines(filePath);
       for (int i = 0; i < lineCount ; i++) {
         System.out.println(lines.get(i));
-      }      
+      }
     } catch (Exception e) {
       System.out.println("Uh-oh, could not read the file!");
     }
