@@ -1,5 +1,8 @@
 package comp.greenfox;
 
+import static java.awt.Color.BLACK;
+import static java.awt.Color.black;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -38,6 +41,9 @@ public class Main {
       System.out.println(dog.eat());
       dog.play();
       System.out.println(dog.hunger);
+
+      Sharpie one = new Sharpie("BLACK", 320);
+      System.out.println(one.use());
 
 
     }
