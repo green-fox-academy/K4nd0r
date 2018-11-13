@@ -53,8 +53,14 @@ public class Main {
 
       //Sharpie
 
-      Sharpie one = new Sharpie("BLACK", 320);
+      Sharpie one = new Sharpie("BLACK", 20, 80);
+      Sharpie two = new Sharpie("black",12, 20);
+      Sharpie three = new Sharpie("black",10, 0);
       System.out.println(one.use());
+      System.out.println(two.use());
+      System.out.println(three.use());
+      SharpieSet set = new SharpieSet();
+
 
       //Counter
 

@@ -9,6 +9,11 @@ public class Sharpie {
     this.color = color;
     this.width = width;
   }
+  Sharpie(String color, float width, float inkAmount){
+    this.color = color;
+    this.width = width;
+    this.inkAmount = inkAmount;
+  }
 
 
   float use(){
