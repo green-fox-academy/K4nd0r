@@ -1,5 +1,7 @@
 package comp.greenfox;
 
+import java.util.Scanner;
+
 import static java.awt.Color.BLACK;
 import static java.awt.Color.black;
 
@@ -54,6 +56,16 @@ public class Main {
       Sharpie one = new Sharpie("BLACK", 320);
       System.out.println(one.use());
 
+      //Counter
+
+      Counter numOne = new Counter();
+      System.out.println("add a number");
+      Scanner scannar = new Scanner(System.in);
+      int number = scannar.nextInt();
+      numOne.add(number);
+
+      System.out.println(numOne.get());
+      System.out.println(numOne.reset());
 
     }
 }
