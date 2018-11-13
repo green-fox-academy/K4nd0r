@@ -6,10 +6,14 @@ import static java.awt.Color.black;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+	// POST-IT
+
       PostIt idea1 = new PostIt("orange", "Idea 1", "blue");
       PostIt awesome = new PostIt("pink", "Awesome", "black");
       PostIt suberb = new PostIt("yellow", "Superb", "green");
+
+      //BLogPOST
 
       BlogPost first = new BlogPost(
           "John Doe",
@@ -31,6 +35,9 @@ public class Main {
               " he told me that he wasn’t really into the whole organizer profile thing.",
           "2017.03.28."
       );
+
+      //Animal
+
       Animal cat = new Animal();
       System.out.println(cat.drink());
 
@@ -41,6 +48,8 @@ public class Main {
       System.out.println(dog.eat());
       dog.play();
       System.out.println(dog.hunger);
+
+      //Sharpie
 
       Sharpie one = new Sharpie("BLACK", 320);
       System.out.println(one.use());
