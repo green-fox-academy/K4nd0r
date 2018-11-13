@@ -28,6 +28,16 @@ public class Main {
               " he told me that he wasn’t really into the whole organizer profile thing.",
           "2017.03.28."
       );
+      Animal cat = new Animal();
+      System.out.println(cat.drink());
+
+      Animal dog = new Animal();
+      System.out.println(dog.eat());
+
+      dog.play();
+      System.out.println(dog.eat());
+      dog.play();
+      System.out.println(dog.hunger);
 
 
     }
