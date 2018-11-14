@@ -1,8 +1,12 @@
 package comp.greenfox;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+      PirateNames addPirate = new PirateNames("Jack");
     }
+
+
 }
