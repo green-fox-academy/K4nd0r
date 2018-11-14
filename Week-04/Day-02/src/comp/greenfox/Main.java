@@ -61,6 +61,9 @@ public class Main {
       System.out.println(three.use());
       SharpieSet set = new SharpieSet();
 
+      System.out.println(set.countUsable());
+      set.removeTrash();
+
 
       //Counter
 
