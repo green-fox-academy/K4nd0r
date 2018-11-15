@@ -6,7 +6,7 @@ public class BunnyAgain{
   // have 3 ears, because they each have a raised foot. Recursively return the
   // number of "ears" in the bunny line 1, 2, ... n (without loops or multiplication).
   public static void main(String[] args) {
-    System.out.println(bunnysEars(40));
+    System.out.println(bunnysEars(50 ));
   }
   public static int bunnysEars(int n) {
     if(n == 0){
