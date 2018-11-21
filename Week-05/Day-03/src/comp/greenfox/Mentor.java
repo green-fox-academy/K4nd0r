@@ -9,6 +9,11 @@ public class Mentor extends Person{
     this.gender = "female";
     this.level = "intermediate";
   }
+  Mentor() {
+    super();
+    Person janeDoe = new Person();
+    level = "intermediate";
+  }
 
   public void getGoal() {
     System.out.println("Educate brilliant junior software developers.");

@@ -4,12 +4,17 @@ public class Sponzor extends Person{
   String company;
   int hiredStudents;
 
-  Sponzor(String name, int age, String gender, String company, int hiredStudents){
+  Sponzor(String name, int age, String gender, String company){
     this.name = "Jane Doe";
     this.age = 30;
     this.gender = "female";
     this.company = "Google";
     this.hiredStudents = 0;
+  }
+  Sponzor() {
+    super();
+    company = "Google";
+    hiredStudents = 0;
   }
 
   public void introduce(){

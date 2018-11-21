@@ -18,7 +18,7 @@ public class Cohort {
   public void addStudents(Student student){
     students.add(student.toString());
   }
-  public void addMentro(Mentor mentor){
+  public void addMentors(Mentor mentor){
     mentors.add(mentor.toString());
   }
   public String info() {

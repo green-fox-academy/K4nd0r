@@ -4,12 +4,17 @@ public class Student extends Person {
   String previousOrganization;
   int skippedDays;
 
-  Student(String name, int age, String gender, String previousOrganization, int skippedDays ){
+  Student(String name, int age, String gender, String previousOrganization){
     this.name = "Jane Doe";
     this.age = 30;
     this.gender = "female";
     this.previousOrganization = "The School of Life";
     this.skippedDays = 0;
+  }
+  Student() {
+    super();
+    previousOrganization = "The School of Life";
+    skippedDays = 0;
   }
   public void getGoal(){
     System.out.println("Be a junior software developer.");
