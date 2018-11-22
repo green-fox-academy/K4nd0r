@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppleTest {
-String message = "apple";
+String message = "appl";
   Apple messageUtil = new Apple(message);
 
   @Test
