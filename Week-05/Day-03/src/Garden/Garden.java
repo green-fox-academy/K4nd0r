@@ -33,10 +33,10 @@ public class Garden {
   public void info() {
     for (Plant plant : plants) {
       if (plant.needsWatering) {
-        System.out.println("The " + plant.Color + " " + plant.getClass().getName() + " needs water (" + plant.waterAmount + ")");
+        System.out.println("The " + plant.Color + " " + plant.getClass().getSimpleName() + " needs water (" + plant.waterAmount + ")");
       } else {
         System.out.println(
-            "The " + plant.Color + " " + plant.getClass().getName() + " doesnt need water (" + plant.waterAmount + ")"
+            "The " + plant.Color + " " + plant.getClass().getSimpleName() + " doesn't need water (" + plant.waterAmount + ")"
         );
       }
     }
