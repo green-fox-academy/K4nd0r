@@ -9,7 +9,7 @@ public class colors {
         };
         for (int i = 0; i < color.length; i++) {
             for (int j = 0; j < color[i].length; j++) {
-                System.out.print(color[i][j] + "\t");
+                System.out.print(color[i][j]  + "\t");
             }
             System.out.println();
 
