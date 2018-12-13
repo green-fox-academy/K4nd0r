@@ -1,4 +1,4 @@
-package com.color.coloringaround;
+package com.color.coloringaround.Service;
 
 import org.springframework.stereotype.Service;
 
