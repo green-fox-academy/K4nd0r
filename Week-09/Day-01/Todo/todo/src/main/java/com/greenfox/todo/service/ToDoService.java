@@ -17,11 +17,13 @@ public class ToDoService {
   public ToDoService(ToDoRepository todoRepository) {
     ToDoService.todoRepository = todoRepository;
   }
+
   public void addToDo( ToDo todo) {
     if (todo != null) {
       todoRepository.save(todo);
     }
   }
+
   public static List<ToDo> getToDoList() {
     List<ToDo> toDoList = new ArrayList<>();
     todoRepository.findAll().forEach(toDoList::add);

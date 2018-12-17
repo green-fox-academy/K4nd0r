@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class ToDo {
-  // (id: long, title: String, urgent: boolean(default false), done: boolean(default false)
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
