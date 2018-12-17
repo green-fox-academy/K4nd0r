@@ -2,6 +2,7 @@ package com.greenfox.todo.service;
 
 import com.greenfox.todo.model.ToDo;
 import com.greenfox.todo.repository.ToDoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,10 +11,11 @@ import java.util.List;
 @Service
 public class ToDoService {
 
-  static ToDoRepository todoRepository;
+  private static ToDoRepository todoRepository;
 
+  @Autowired
   public ToDoService(ToDoRepository todoRepository) {
-    this.todoRepository = todoRepository;
+    ToDoService.todoRepository = todoRepository;
   }
   public void addToDo( ToDo todo) {
     if (todo != null) {
