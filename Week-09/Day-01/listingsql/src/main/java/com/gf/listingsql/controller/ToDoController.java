@@ -31,13 +31,13 @@ public class ToDoController {
         .stream()
         .filter(todo -> !todo.isDone())
         .collect(Collectors.toList()));
-    return "main";
+    return "todolist";
   }
 
   @GetMapping("/add-todo")
   public String addTodo(Model model) {
-    model.addAttribute("todo", new ToDo());
-    return "add-todo";
+    model.addAttribute("todos", new ToDo());
+    return "add";
   }
 
   @PostMapping("/add-todo")
@@ -54,12 +54,12 @@ public class ToDoController {
 
   @GetMapping("/{id}/edit")
   public String editTodo(@PathVariable long id, Model model) {
-    model.addAttribute("todo", service.getToDoBy(id));
-    return "edit-todo";
+    model.addAttribute("todos", service.getToDoBy(id));
+    return "edit";
   }
 
   @PostMapping("/{id}/edit")
-  public String editTodo(@ModelAttribute("todo") ToDo todo) {
+  public String editTodo(@ModelAttribute("todos") ToDo todo) {
     service.addToDo(todo);
     return "redirect:/todo";
   }
