@@ -21,9 +21,17 @@ public class ToDoService {
     }
   }
 
+  public ToDo getToDoBy(Long id) {
+    return toDoRepository.findById(id).orElse(null);
+  }
+
   public List<ToDo> getToDoList() {
     List<ToDo> todoList = new ArrayList<>();
     toDoRepository.findAll().forEach(todoList::add);
     return todoList;
+  }
+
+  public void deleteToDoById(Long id) {
+    toDoRepository.deleteById(id);
   }
 }

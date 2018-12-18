@@ -24,6 +24,7 @@ public class ToDo {
     this.urgent = isUrgent;
     this.done = false;
   }
+
   public long getId() {
     return id;
   }
@@ -32,12 +33,24 @@ public class ToDo {
     return title;
   }
 
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
   public boolean isUrgent() {
     return urgent;
   }
 
+  public void setUrgent(boolean urgent) {
+    this.urgent = urgent;
+  }
+
   public boolean isDone() {
     return done;
+  }
+
+  public void setDone(boolean done) {
+    this.done = done;
   }
 }
 
