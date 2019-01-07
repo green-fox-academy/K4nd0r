@@ -1,7 +1,5 @@
 package com.rest.rest.model;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Doubling {
 
